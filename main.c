@@ -1,7 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 using namespace std;
 
-int main(){
+int main(void)
+{
 	int fnumber, snumber, sum;
 
 	cout << "Enter the two numbers";
@@ -10,5 +11,6 @@ int main(){
 	sum = fnumber + snumber;
 	cout << sum;
 
+	printf("Hello, good Morning!\n");
 	return 0;
 }
